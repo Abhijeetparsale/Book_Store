@@ -19,18 +19,18 @@ export const userRegistration = async (body) => {
   }
 };
 // User Login
-// export const login = async (body) => {
-//   const user = await User.findOne({ email: body.email });
-//   if (user === null) {
-//     throw new Error('User does not exist');
-//   } else {
-//     const validPassword = bcrypt.compareSync(body.password, user.password);
-//     if (validPassword) {
-//       const token = jwt.sign({ 'email': user.email, 'id': user._id },
-//         process.env.SECRET_CODE);
-//       return token;
-//     } else {
-//       throw new Error('password is invalid');
-//     }
-//   }
-// };
+export const login = async (body) => {
+  const user = await User.findOne({ email: body.email });
+  if (user === null) {
+    throw new Error('User does not exist');
+  } else {
+    const validPassword = bcrypt.compareSync(body.password, user.password);
+    if (validPassword) {
+      const token = jwt.sign({ 'email': user.email, 'id': user._id },
+        process.env.SECRET_CODE);
+      return token;
+    } else {
+      throw new Error('password is invalid');
+    }
+  }
+};
