@@ -18,27 +18,27 @@ export const userRegistration = async (req, res) => {
    
   }
 };
-// //User Login
-// export const login = async (req, res, next) => {
-//   try {
-//     const data = await UserService.login(req.body);
-//     if(data == null){
-//       res.status(HttpStatus.NOT_FOUND).json({
-//         code: HttpStatus.NOT_FOUND,
-//         message: 'User is not Found'
-//       });
-//     }else{
-//     res.status(HttpStatus.OK).json({
-//       code: HttpStatus.OK,
-//       data: data,
-//       message: 'Login Successfull'
-//     });
-//   }
-//   } catch (error) {
-//     res.status(HttpStatus.BAD_REQUEST,).json({
-//       code: HttpStatus.BAD_REQUEST,
-//       message: `${error}`
-//     })
-//     next();
-//   }
-// };
+//User Login
+export const login = async (req, res, next) => {
+  try {
+    const data = await UserService.login(req.body);
+    if(data == null){
+      res.status(HttpStatus.NOT_FOUND).json({
+        code: HttpStatus.NOT_FOUND,
+        message: 'User is not Found'
+      });
+    }else{
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      data: data,
+      message: 'Login Successfull'
+    });
+  }
+  } catch (error) {
+    res.status(HttpStatus.BAD_REQUEST,).json({
+      code: HttpStatus.BAD_REQUEST,
+      message: `${error}`
+    })
+    next();
+  }
+};
