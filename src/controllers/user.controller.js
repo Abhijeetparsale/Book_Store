@@ -42,3 +42,33 @@ export const login = async (req, res, next) => {
     next();
   }
 };
+
+export const forgetPassword = async (req, res ,next) => {
+  try {
+    const data = await UserService.forgetPassword(req.body)
+    res.status(HttpStatus.OK).json({
+      code:HttpStatus.OK,
+      data: data,
+      message: 'Reset Link Sent'
+
+    })
+  } catch (error) {
+    console.log(`${error}`) 
+  }
+}
+
+
+export const resetPass = async (req, res ,next) => {
+  try {
+    req.body.userID = req.body.data.id;
+    const data = await UserService.resetPass(req.body)
+    res.status(HttpStatus.OK).json({
+      code:HttpStatus.OK,
+      data: data,
+      message: 'Password Reset Successfull'
+
+    })
+  } catch (error) {
+    next(error) 
+  }
+}
