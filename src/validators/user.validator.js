@@ -20,3 +20,23 @@ export const newUserValidator = (req, res, next) => {
     next();
   }
 };
+
+// export const newBookValidator = (req, res, next) => {
+//   const schema = Joi.object({
+//     Title: Joi.string().min(4).required(),
+//     Author: Joi.string().min(4).required(),
+//     Description: Joi.string().min(4).required(),
+//     Quantity: Joi.number().min(0).required(),
+//     price: Joi.number().min(1).required(),
+   
+//   });
+//   const { error } = schema.validate(req.body);
+//   if (error) {
+//     res.status(HttpStatus.BAD_REQUEST).json({
+//       code: HttpStatus.BAD_REQUEST,
+//       message: `Enter Valid Details: ${error}`
+//     });
+//   } else {
+//     next();
+//   }
+// };

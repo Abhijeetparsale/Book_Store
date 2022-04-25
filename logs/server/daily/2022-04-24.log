@@ -8,3 +8,250 @@ info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-04-24T0
 info: Connected to the database. {"timestamp":"2022-04-24T06:52:21.560Z"}
 info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-04-24T06:52:43.127Z"}
 info: Connected to the database. {"timestamp":"2022-04-24T06:52:43.158Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-04-24T07:19:49.093Z"}
+info: Connected to the database. {"timestamp":"2022-04-24T07:19:49.129Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 49
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\VISHNU SATHEESH\Project\BookStore\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\VISHNU SATHEESH\Project\BookStore\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\VISHNU SATHEESH\Project\BookStore\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\VISHNU SATHEESH\Project\BookStore\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\VISHNU SATHEESH\Project\BookStore\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/forgot 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-04-24T07:20:47.947Z"}
+error: 
+    status - 500 
+    message - Error: secretOrPrivateKey must have a value
+    at Object.sign (C:\Users\VISHNU SATHEESH\Project\BookStore\node_modules\jsonwebtoken\sign.js:107:20)
+    at _callee3$ (C:\Users\VISHNU SATHEESH\Project\BookStore\src\services\/user.service.js:42:23)
+    at tryCatch (C:\Users\VISHNU SATHEESH\Project\BookStore\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\VISHNU SATHEESH\Project\BookStore\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\VISHNU SATHEESH\Project\BookStore\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\VISHNU SATHEESH\Project\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\VISHNU SATHEESH\Project\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forgot 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-04-24T07:21:01.453Z"}
+error: 
+    status - 500 
+    message - Error: secretOrPrivateKey must have a value
+    at Object.sign (C:\Users\VISHNU SATHEESH\Project\BookStore\node_modules\jsonwebtoken\sign.js:107:20)
+    at _callee3$ (C:\Users\VISHNU SATHEESH\Project\BookStore\src\services\/user.service.js:42:23)
+    at tryCatch (C:\Users\VISHNU SATHEESH\Project\BookStore\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\VISHNU SATHEESH\Project\BookStore\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\VISHNU SATHEESH\Project\BookStore\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\VISHNU SATHEESH\Project\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\VISHNU SATHEESH\Project\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forgot 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-04-24T07:22:25.766Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-04-24T07:24:00.937Z"}
+info: Connected to the database. {"timestamp":"2022-04-24T07:24:00.971Z"}
+error: 
+    status - 500 
+    message - ReferenceError: sendMail is not defined
+    at _callee3$ (C:\Users\VISHNU SATHEESH\Project\BookStore\src\services\/user.service.js:38:31)
+    at tryCatch (C:\Users\VISHNU SATHEESH\Project\BookStore\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\VISHNU SATHEESH\Project\BookStore\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\VISHNU SATHEESH\Project\BookStore\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\VISHNU SATHEESH\Project\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\VISHNU SATHEESH\Project\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forgot 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-04-24T07:24:12.323Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-04-24T07:29:00.042Z"}
+info: Connected to the database. {"timestamp":"2022-04-24T07:29:00.077Z"}
+error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials w6-20020a17090aaf8600b001cd4989fec0sm11002312pjq.12 - gsmtp {"code":"EAUTH","command":"AUTH PLAIN","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials w6-20020a17090aaf8600b001cd4989fec0sm11002312pjq.12 - gsmtp","responseCode":535,"timestamp":"2022-04-24T07:29:09.911Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/users/forgot 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-04-24T07:29:09.923Z"}
+error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials j185-20020a62c5c2000000b0050adc3e5f91sm7427815pfg.49 - gsmtp {"code":"EAUTH","command":"AUTH PLAIN","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials j185-20020a62c5c2000000b0050adc3e5f91sm7427815pfg.49 - gsmtp","responseCode":535,"timestamp":"2022-04-24T07:33:03.753Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/users/forgot 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-04-24T07:33:03.765Z"}
+error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials i3-20020a056a00224300b0050d32f838e1sm1330093pfu.21 - gsmtp {"code":"EAUTH","command":"AUTH PLAIN","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials i3-20020a056a00224300b0050d32f838e1sm1330093pfu.21 - gsmtp","responseCode":535,"timestamp":"2022-04-24T07:34:08.741Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/users/forgot 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-04-24T07:34:08.745Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-04-24T07:48:35.470Z"}
+info: Connected to the database. {"timestamp":"2022-04-24T07:48:35.500Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-04-24T07:48:45.115Z"}
+info: Connected to the database. {"timestamp":"2022-04-24T07:48:45.157Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-04-24T07:49:00.491Z"}
+info: Connected to the database. {"timestamp":"2022-04-24T07:49:00.529Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-04-24T07:49:17.741Z"}
+info: Connected to the database. {"timestamp":"2022-04-24T07:49:17.764Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-04-24T07:49:37.812Z"}
+info: Connected to the database. {"timestamp":"2022-04-24T07:49:37.903Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-04-24T07:49:43.675Z"}
+info: Connected to the database. {"timestamp":"2022-04-24T07:49:43.698Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-04-24T07:50:04.580Z"}
+info: Connected to the database. {"timestamp":"2022-04-24T07:50:04.614Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-04-24T07:50:21.589Z"}
+info: Connected to the database. {"timestamp":"2022-04-24T07:50:21.618Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-04-24T07:52:01.550Z"}
+info: Connected to the database. {"timestamp":"2022-04-24T07:52:01.575Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-04-24T07:52:37.672Z"}
+info: Connected to the database. {"timestamp":"2022-04-24T07:52:37.704Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-04-24T07:53:16.221Z"}
+info: Connected to the database. {"timestamp":"2022-04-24T07:53:16.249Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-04-24T07:53:40.257Z"}
+info: Connected to the database. {"timestamp":"2022-04-24T07:53:40.293Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-04-24T07:54:25.975Z"}
+info: Connected to the database. {"timestamp":"2022-04-24T07:54:26.032Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-04-24T07:55:34.390Z"}
+info: Connected to the database. {"timestamp":"2022-04-24T07:55:34.457Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-04-24T07:56:08.923Z"}
+info: Connected to the database. {"timestamp":"2022-04-24T07:56:08.958Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-04-24T07:56:34.835Z"}
+info: Connected to the database. {"timestamp":"2022-04-24T07:56:34.875Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-04-24T07:57:49.663Z"}
+info: Connected to the database. {"timestamp":"2022-04-24T07:57:49.690Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-04-24T07:57:56.754Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-04-24T07:58:01.687Z"}
+info: Connected to the database. {"timestamp":"2022-04-24T07:58:01.716Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-04-24T07:58:12.535Z"}
+info: Connected to the database. {"timestamp":"2022-04-24T07:58:12.571Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-04-24T07:58:19.286Z"}
+info: Connected to the database. {"timestamp":"2022-04-24T07:58:19.323Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-04-24T07:58:25.949Z"}
+info: Connected to the database. {"timestamp":"2022-04-24T07:58:25.978Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-04-24T07:58:56.375Z"}
+info: Connected to the database. {"timestamp":"2022-04-24T07:58:56.400Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-04-24T07:59:33.331Z"}
+info: Connected to the database. {"timestamp":"2022-04-24T07:59:33.358Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-04-24T07:59:42.274Z"}
+info: Connected to the database. {"timestamp":"2022-04-24T07:59:42.303Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-04-24T08:00:01.617Z"}
+info: Connected to the database. {"timestamp":"2022-04-24T08:00:01.644Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-04-24T08:02:04.449Z"}
+info: Connected to the database. {"timestamp":"2022-04-24T08:02:04.484Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-04-24T08:02:10.720Z"}
+info: Connected to the database. {"timestamp":"2022-04-24T08:02:10.755Z"}
+info: Connected to the database. {"timestamp":"2022-04-24T08:02:18.012Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-04-24T08:04:20.533Z"}
+info: Connected to the database. {"timestamp":"2022-04-24T08:04:20.560Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-04-24T08:04:38.315Z"}
+info: Connected to the database. {"timestamp":"2022-04-24T08:04:38.347Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-04-24T08:06:01.714Z"}
+info: Connected to the database. {"timestamp":"2022-04-24T08:06:01.748Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-04-24T08:21:32.977Z"}
+info: Connected to the database. {"timestamp":"2022-04-24T08:21:33.001Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-04-24T08:22:54.447Z"}
+info: Connected to the database. {"timestamp":"2022-04-24T08:22:54.475Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-04-24T08:23:02.728Z"}
+info: Connected to the database. {"timestamp":"2022-04-24T08:23:02.762Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-04-24T08:32:08.328Z"}
+info: Connected to the database. {"timestamp":"2022-04-24T08:32:08.357Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-04-24T08:33:19.910Z"}
+info: Connected to the database. {"timestamp":"2022-04-24T08:33:19.938Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-04-24T08:34:52.209Z"}
+info: Connected to the database. {"timestamp":"2022-04-24T08:34:52.239Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-04-24T08:36:24.168Z"}
+info: Connected to the database. {"timestamp":"2022-04-24T08:36:24.193Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-04-24T08:37:22.866Z"}
+info: Connected to the database. {"timestamp":"2022-04-24T08:37:22.893Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-04-24T08:41:12.736Z"}
+info: Connected to the database. {"timestamp":"2022-04-24T08:41:12.765Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-04-24T08:43:00.657Z"}
+info: Connected to the database. {"timestamp":"2022-04-24T08:43:00.687Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-04-24T08:44:04.289Z"}
+info: Connected to the database. {"timestamp":"2022-04-24T08:44:04.325Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-04-24T08:44:10.552Z"}
+info: Connected to the database. {"timestamp":"2022-04-24T08:44:10.595Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-04-24T08:44:27.820Z"}
+info: Connected to the database. {"timestamp":"2022-04-24T08:44:27.849Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-04-24T08:44:41.182Z"}
+info: Connected to the database. {"timestamp":"2022-04-24T08:44:41.225Z"}
+error: 
+    status - 500 
+    message - ReferenceError: decoded is not defined
+    at C:\Users\VISHNU SATHEESH\Project\BookStore\src\middlewares\/auth.middleware.js:29:31
+    at C:\Users\VISHNU SATHEESH\Project\BookStore\node_modules\jsonwebtoken\verify.js:223:12
+    at getSecret (C:\Users\VISHNU SATHEESH\Project\BookStore\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\VISHNU SATHEESH\Project\BookStore\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\VISHNU SATHEESH\Project\BookStore\src\middlewares\/auth.middleware.js:21:9)
+    at tryCatch (C:\Users\VISHNU SATHEESH\Project\BookStore\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\VISHNU SATHEESH\Project\BookStore\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\VISHNU SATHEESH\Project\BookStore\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\VISHNU SATHEESH\Project\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\VISHNU SATHEESH\Project\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\VISHNU SATHEESH\Project\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\VISHNU SATHEESH\Project\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\VISHNU SATHEESH\Project\BookStore\src\middlewares\/auth.middleware.js:12:23)
+    at Layer.handle [as handle_request] (C:\Users\VISHNU SATHEESH\Project\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\VISHNU SATHEESH\Project\BookStore\node_modules\express\lib\router\route.js:137:13) 
+    url - /api/v1/book 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-04-24T08:44:49.253Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-04-24T08:45:12.024Z"}
+info: Connected to the database. {"timestamp":"2022-04-24T08:45:12.053Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-04-24T08:46:09.390Z"}
+info: Connected to the database. {"timestamp":"2022-04-24T08:46:09.419Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-04-24T08:47:00.392Z"}
+info: Connected to the database. {"timestamp":"2022-04-24T08:47:00.421Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-04-24T08:49:20.058Z"}
+info: Connected to the database. {"timestamp":"2022-04-24T08:49:20.085Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-04-24T08:49:39.369Z"}
+info: Connected to the database. {"timestamp":"2022-04-24T08:49:39.399Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-04-24T08:50:13.944Z"}
+info: Connected to the database. {"timestamp":"2022-04-24T08:50:13.971Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-04-24T08:50:57.475Z"}
+info: Connected to the database. {"timestamp":"2022-04-24T08:50:57.513Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-04-24T08:53:04.260Z"}
+info: Connected to the database. {"timestamp":"2022-04-24T08:53:04.300Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-04-24T08:53:17.513Z"}
+info: Connected to the database. {"timestamp":"2022-04-24T08:53:17.539Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-04-24T08:54:22.360Z"}
+info: Connected to the database. {"timestamp":"2022-04-24T08:54:22.389Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-04-24T08:55:12.707Z"}
+info: Connected to the database. {"timestamp":"2022-04-24T08:55:12.743Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-04-24T08:56:09.078Z"}
+info: Connected to the database. {"timestamp":"2022-04-24T08:56:09.108Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-04-24T08:57:14.100Z"}
+info: Connected to the database. {"timestamp":"2022-04-24T08:57:14.129Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-04-24T08:57:26.491Z"}
+info: Connected to the database. {"timestamp":"2022-04-24T08:57:26.528Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-04-24T08:59:28.474Z"}
+info: Connected to the database. {"timestamp":"2022-04-24T08:59:28.511Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-04-24T09:01:47.480Z"}
+info: Connected to the database. {"timestamp":"2022-04-24T09:01:47.509Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-04-24T09:03:26.720Z"}
+info: Connected to the database. {"timestamp":"2022-04-24T09:03:26.746Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-04-24T09:03:50.841Z"}
+info: Connected to the database. {"timestamp":"2022-04-24T09:03:50.893Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-04-24T09:05:29.226Z"}
+info: Connected to the database. {"timestamp":"2022-04-24T09:05:29.254Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-04-24T09:06:53.613Z"}
+info: Connected to the database. {"timestamp":"2022-04-24T09:06:53.643Z"}
