@@ -21,9 +21,15 @@
             "hash": "7c3555b8ce170d14a619d5e2302bd000"
         },
         {
+<<<<<<< HEAD
             "date": 1650870856451,
             "name": "logs\\server\\daily\\2022-04-25.log",
             "hash": "6bcca9f2e7069dfa893eef8643aa5670"
+=======
+            "date": 1650853306843,
+            "name": "logs\\server\\daily\\2022-04-25.log",
+            "hash": "a1db295adea6fe0d662ec7357ab13d2f"
+>>>>>>> ForgetReset_API
         }
     ],
     "hashType": "md5"
