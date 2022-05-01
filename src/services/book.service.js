@@ -4,7 +4,7 @@ import Book from '../models/book.model';
 
 
 export const postBook = async (body) => {
-    const bookDetails = await Book.findOne({ Title: body.Title})
+    const bookDetails = await Book.findOne({ bookName: body.bookName,userID: body.userID})
     // console.log(bookDetails)
     if (bookDetails) {
         throw new Error('Book already posted')
