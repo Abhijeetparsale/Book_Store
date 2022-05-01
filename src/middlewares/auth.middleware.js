@@ -25,8 +25,8 @@ import jwt from 'jsonwebtoken';
           message: 'Token for Authorization is Incorrect'
         };
       }else{
-         req.body['data'] = verifiedToken;
-        //  req.body['userId'] = verifiedToken;
+        //  req.body['data'] = verifiedToken;
+          req.body['userId'] = verifiedToken.id;
         next();
     }
   }
