@@ -3,20 +3,20 @@ import { Schema, model } from 'mongoose';
 
 const bookSchema = new Schema(
   {
-    Title: {
+    bookName: {
       type: String,
       unique: true
     },
-    Author:{
+    author:{
       type: String
     },
-    Description:{
+    description:{
       type: String
     },
     price:{
       type: Number
     },
-    Quantity: {
+    quantity: {
         type: Number
       }     
   },
