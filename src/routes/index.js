@@ -5,6 +5,7 @@ import userRoute from './user.route';
 import bookRoute from './book.route';
 import cartRoute from './cart.route';
 import wishlistRoute from './wishlist.route';
+import orderRoute from './order.route';
 /**
  * Function contains Application routes
  *
@@ -17,7 +18,9 @@ function routes() {
   router.use('/users', userRoute);
   router.use('/book', bookRoute);
   router.use('/cart', cartRoute);
-  router.use('/list', wishlistRoute)
+  router.use('/list', wishlistRoute);
+  router.use('/order', orderRoute);
+
   return router;
 }
 
