@@ -51,7 +51,7 @@ export const createCart = async (params, body) => {
 export const getCartItems = async (body) => {
     const data = await Cart.findOne({ userId: body.userId });
     console.log(data)
-    if (data.length === 0) {
+    if (data == null) {
         throw new Error("Cart Not Present")
     }
     else {
