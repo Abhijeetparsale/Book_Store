@@ -4,11 +4,10 @@ import HttpStatus from 'http-status-codes'
 
 export const newUserValidator = (req, res, next) => {
   const schema = Joi.object({
-    firstName: Joi.string().min(4).required().error( Error('Enter a appropriate first name')),
-    lastName: Joi.string().min(4).required().error( Error('Enter a appropriate last name')),
+    fullName: Joi.string().min(4).required().error( Error('Enter a appropriate  name')),
     email: Joi.string().email().required().error( Error('Enter a appropriate Email')),
     password: Joi.string().required(),
-    role: Joi.string().required()
+    mobileNum: Joi.string().required(),
   });
   const { error, value } = schema.validate(req.body);
   if (error) {
