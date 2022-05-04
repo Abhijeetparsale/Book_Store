@@ -1,4 +1,6 @@
 import Book from '../models/book.model';
+import { client } from '../config/redis';
+
 
 
 
@@ -22,6 +24,7 @@ export const getAllBooks = async () => {
         throw new Error("No Book Present")
     }
     else {
+         await client.set('getAllBooks',JSON.stringify(data))
         return data;
     }
 };
