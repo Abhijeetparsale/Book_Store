@@ -8,10 +8,10 @@ export const orderItem = async (body) => {
         let bookArray = cartPresent.book;
         const orderlist = await Order.create({ "orders": bookArray })
         const order = await orderlist.save();
-         await Cart.findByIdAndDelete({ userId: body.userId});
-         if (cartPresent){
-             throw new Error ('Cart is empty')
-         }
+         await Cart.findByIdAndDelete({ _id: cartPresent._id});
+        //  if (cartPresent){
+        //      throw new Error ('Cart is empty')
+        //  }
          return order;
        
     } else {
